@@ -16,3 +16,7 @@ This project simulates the CO₂ sequestration potential of three native tree sp
 
 ## Output
 - A line chart showing estimated CO₂ capture per species over 20 years (in tons)
+
+- This project, developed as part of the 1M1B Green Skills Virtual Internship, focuses on estimating the long-term carbon sequestration potential of newly planted trees. Using Python-based simulation modeling and real-world tree growth data, it projects CO₂ capture over a 10–20 year period for various species and planting strategies. The model aims to help institutions, policymakers, and communities make informed afforestation decisions backed by quantitative data.
+
+
