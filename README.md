@@ -1,13 +1,18 @@
-# Afforestation-Impact-Modeling
-Tree plantation projects often lack clear, data-backed insights into how much CO₂ can be captured over time. This makes it difficult to plan effectively, attract funding, or measure long-term climate benefits.
+# Afforestation Impact Modeling Project
 
-💡 Solution
-Gathered species-specific growth rates, biomass carbon content, and survival rates.
+This project simulates the CO₂ sequestration potential of three native tree species over a 20-year period using Python.
 
-Developed a Python model to simulate tree growth and estimate carbon capture.
+## Contents
+- `data/species_growth_data.csv`: Input dataset with tree species parameters
+- `scripts/sequestration_model.py`: Python script to run the simulation and generate plots
+- `output/charts/`: Folder where output visualizations are saved
 
-Created visual outputs (graphs & charts) to compare sequestration across species.
+## How to Run
+1. Install required packages: pandas, matplotlib
+2. Run the script from `scripts/`:
+   ```
+   python sequestration_model.py
+   ```
 
-Designed the framework to be expandable with new datasets for regional adaptation.
-
-
+## Output
+- A line chart showing estimated CO₂ capture per species over 20 years (in tons)
